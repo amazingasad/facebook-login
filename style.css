@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.container{
+#container{
     padding: 0px 10% 5% 10%;
     text-align: center;
 }
@@ -59,4 +59,48 @@ p a{
     border: none;
     margin-top: 15px;
     cursor: pointer;
+}
+.second-container{
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+.cover-image img{
+    width: 100%;
+
+}
+profile-image{
+    width: 100%;
+}
+.profile-image img{
+    width: 30%;
+    border: 4px solid #242527;
+    height: 45%;
+    border-radius: 90%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+#profile-info{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.prop button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 13px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+#story{
+    background-color: #1a74e4;
+}
+#edit-profile, #dot-button{
+    background-color: #525457ab;
+}
+.prop{
+    
 }

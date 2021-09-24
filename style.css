@@ -73,12 +73,12 @@ profile-image{
     width: 100%;
 }
 .profile-image img{
-    width: 30%;
+    width: 31.5%;
     border: 4px solid #242527;
-    height: 45%;
-    border-radius: 90%;
+    height: 47%;
+    border-radius: 50%;
     position: absolute;
-    top: 60%;
+    top: 57%;
     left: 35%;
 }
 #profile-info{
@@ -101,6 +101,46 @@ profile-image{
 #edit-profile, #dot-button{
     background-color: #525457ab;
 }
-.prop{
-    
+#about-info{
+    margin-top: 45px;
+}
+.prop-info{
+    display: flex;
+}
+.prop-info img{
+    width: 30px;
+    height: 30px;
+}
+.prop-info img, p{
+    margin: 15px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+#friends{
+    padding: 7px;
+}
+.friend-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.light{
+    font-weight: 300;
+}
+.friend-button a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.friend-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.friend-list img{
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    border-radius: 15px;
 }

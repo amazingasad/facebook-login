@@ -2,6 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+#hide{
+    display: none;
+}
 #container{
     padding: 0px 10% 5% 10%;
     text-align: center;
@@ -21,6 +24,7 @@ input{
 }
 input:focus{
     outline: none;
+    font-size: 17px;
 }
 .login{
     width: 100%;
@@ -50,7 +54,7 @@ p a{
 }
 
 .create-account{
-    background-color: rgb(0, 255, 85);
+    background-color: rgba(0, 255, 21, 0.849);
     width: 100%;
     color: white;
     font-size: medium;
@@ -92,7 +96,7 @@ profile-image{
     padding: 8px 13px;
     margin: 0px 5px;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     color: white;
 }
 #story{
@@ -137,10 +141,30 @@ profile-image{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .friend-list img{
     width: 100px;
     height: 100px;
     margin: 7px;
     border-radius: 15px;
+}
+
+/* Media Query */
+@media only screen and (min-width: 768px){
+    #container{
+        width: 500px;
+        margin: auto;
+        border-radius: 30px;
+        background-color: rgba(221, 203, 203, 0.129);
+    }
+    .second-container{
+        width: 85%;
+    }
+    #about-info{
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: 50px auto;
+    }
 }

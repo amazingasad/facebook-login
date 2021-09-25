@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Facebook | Login Or Create an account</title>
+    <title>Facebook | FakeBook</title>
 </head>
 <body>
     <div id="container">
         <div class="logo">
         <img src="icons/logo.svg" alt="">
     </div>
-        <input type="text" placeholder="Enter E-mail or Phone">
+        <input type="text" id="email" placeholder="Enter E-mail or Phone">
         <br>
-        <input type="password" placeholder="Password">
+        <input type="password" id="password" placeholder="Password">
         <br>
         <button class="login" id="login-button">Log In</button>
         <p><a href="#">Forgotten Password ?</a></p>
@@ -25,90 +25,88 @@
         </div>
         <button class="create-account">Create New Account</button>
     </div>
-    <section class="second-container">
-        <h4>Asad Islam</h4>
-        <hr>
-        <div class="cover-image">
-            <img src="images/cover.jpg" alt="">
-        </div>
-        <div class="profile-image">
-            <img src="images/profile.jpeg" id="profile" alt="">
-        </div>
-    </section>
-    <section id="profile-info">
-        <div class="prop">
-            <h1>Asad Islam (Noob Coder)</h1>
-            <p>See I'm a guy with simple taste</p>
-            <div class="buttons">
-                <button id="story">+ Add To Story</button>
-                <button id="edit-profile">Edit profile</button>
-                <button id="dot-button">...</button>
+    <div id="hide">
+        <section class="second-container">
+            <h3>Asad Islam</h3>
+            <hr>
+            <div class="cover-image">
+                <img src="images/cover.jpg" alt="">
             </div>
-        </div>
-    </section>
-    <section id="about-info">
-        <div class="prop-info">
-            <img src="icons/also (1).png" alt="">
-            <p>Lives In</p>
-            <p class="bold">Enayetpur, Sirajgonj</p>
-        </div>
-        <div class="prop-info">
-            <img src="icons/also (2).png" alt="">
-            <p>Hometown</p>
-            <p class="bold">Sirajgonj</p>
-        </div>
-        <div class="prop-info">
-            <img src="icons/also (3).png" alt="">
-            <p>School</p>
-            <p class="bold">ICL School</p>
-        </div>
-        <div class="prop-info">
-            <img src="icons/also (4).png" alt="">
-            <p>Relationship</p>
-            <p class="bold">Single</p>
-        </div>
-        <div class="prop-info">
-            <img src="icons/also (2).png" alt="">
-            <p>lorem ipsum</p>
-            <p class="bold">lorem 69</p>
-        </div>
-        <div class="prop-info">
-            <img src="icons/also (3).png" alt="">
-            <p>also said</p>
-            <p class="bold">Lipsum</p>
-        </div>
-        <div id="friends">
-            <div class="friend-button">
-                <div>
-                    <p class="bold">Friends</p>
-                    <p class="light">5 Friends</p>
-                </div>
-                <a href="#">See all</a>
+            <div class="profile-image">
+                <img src="images/profile.jpeg" id="profile" alt="">
             </div>
-            <div class="friend-list">
-                <div class="friend">
-                    <img src="images/friend (1).jpg" alt="">
-                    <p class="bold">Lorem, ipsum.</p>
-                </div>
-                <div class="friend">
-                    <img src="images/friend (2).jpg" alt="">
-                    <p class="bold">Lorem, ipsum.</p>
-                </div>
-                <div class="friend">
-                    <img src="images/friend (3).jpg" alt="">
-                    <p class="bold">Lorem, ipsum.</p>
-                </div>
-                <div class="friend">
-                    <img src="images/friend (4).jpg" alt="">
-                    <p class="bold">Lorem, ipsum.</p>
-                </div>
-                <div class="friend">
-                    <img src="images/friend (5).jpg" alt="">
-                    <p class="bold">Lorem, ipsum.</p>
+        </section>
+        <section id="profile-info">
+            <div class="prop">
+                <h1>Asad Islam (Noob Coder)</h1>
+                <p>See I'm a guy with simple taste</p>
+                <div class="buttons">
+                    <button id="story">+ Add To Story</button>
+                    <button id="edit-profile">Edit profile</button>
+                    <button id="dot-button">...</button>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="about-info">
+            <div>
+                <div class="prop-info">
+                    <img src="icons/also (1).png" alt="">
+                    <p>Lives In</p>
+                    <p class="bold">Enayetpur, Sirajgonj</p>
+                </div>
+                <div class="prop-info">
+                    <img src="icons/also (2).png" alt="">
+                    <p>Hometown</p>
+                    <p class="bold">Sirajgonj</p>
+                </div>
+                <div class="prop-info">
+                    <img src="icons/also (3).png" alt="">
+                    <p>School</p>
+                    <p class="bold">ICL School</p>
+                </div>
+                <div class="prop-info">
+                    <img src="icons/also (4).png" alt="">
+                    <p>Relationship</p>
+                    <p class="bold">Single</p>
+                </div>
+            </div>
+            <div id="friends">
+                <div class="friend-button">
+                    <div>
+                        <p class="bold">Friends</p>
+                        <p class="light">5 Friends</p>
+                    </div>
+                    <a href="#">See all</a>
+                </div>
+                <div class="friend-list">
+                    <div class="friend">
+                        <img src="images/friend (1).jpeg" alt="">
+                        <p class="bold">Siam Hossen</p>
+                    </div>
+                    <div class="friend">
+                        <img src="images/friend (2).jpeg" alt="">
+                        <p class="bold">Ismail Chowdhury</p>
+                    </div>
+                    <div class="friend">
+                        <img src="images/friend (3).jpeg" alt="">
+                        <p class="bold">Raiyan Sarker</p>
+                    </div>
+                    <div class="friend">
+                        <img src="images/friend (4).jpeg" alt="">
+                        <p class="bold">Hridoy Sheikh</p>
+                    </div>
+                    <div class="friend">
+                        <img src="images/friend (5).jpeg" alt="">
+                        <p class="bold">Showaib Siddique</p>
+                    </div>
+                    <div class="friend">
+                        <img src="images/friend (6).jpeg" alt="">
+                        <p class="bold">Murad Hossain</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
 

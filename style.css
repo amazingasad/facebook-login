@@ -2,6 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+img{
+    cursor: pointer;
+}
 #hide{
     display: none;
 }
@@ -28,7 +31,7 @@ input:focus{
 }
 .login{
     width: 100%;
-    background-color: rgb(80, 80, 224);
+    background-color: #2d87ff;
     color: white;
     font-size: medium;
     font-weight: bold;
@@ -54,7 +57,7 @@ p a{
 }
 
 .create-account{
-    background-color: rgba(0, 255, 21, 0.849);
+    background-color: #30a24b;
     width: 100%;
     color: white;
     font-size: medium;
@@ -149,14 +152,102 @@ profile-image{
     margin: 7px;
     border-radius: 15px;
 }
-
+.photos-btn{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e5e6eb;
+    width: 66px;
+    padding: 5px 15px;
+    height: 30px;
+    border-radius: 15px;
+}
+.line{
+    height: 3px;
+    width: 100%;
+    margin: 7px auto;
+    background-color: #bcbfc4;
+}
+.photos-btn{
+    cursor: pointer;
+}
+.photos-btn img{
+    width: 40%;
+    padding-right: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.upload h3{
+    margin-left: 18px;
+}
+.flex input{
+    background-color: #bcbfc41a;
+    border-radius: 30px;
+    padding: 6px 7px ;
+    height: 30px;
+    width: 60%;
+}
+.flex img{
+    width: 45px;
+    height: 36px;
+}
+.img-profile{
+    border-radius: 50%;
+}
+.secondary-flex{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondary-flex img{
+    width: 30px;
+    height: 20px;
+}
+#vertical-line{
+    border-right:2px solid #525457ab;
+    padding: 0px 10px;
+    height: 20px;
+    border-left:2px solid #525457ab;
+}
+.posts{
+    text-align: center;
+    margin: 10px 0px;
+}
+.post-image{
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.third-flex{
+    display: flex;
+    align-items: baseline;
+}
+.reaction{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 45px;
+    background-color: #bcbfc4bb;
+}
+.reaction img{
+    width: 20px;
+}
 /* Media Query */
 @media only screen and (min-width: 768px){
     #container{
         width: 500px;
         margin: auto;
         border-radius: 30px;
-        background-color: rgba(221, 203, 203, 0.129);
+        background-color: rgba(221, 203, 203, 0.212);
     }
     .second-container{
         width: 85%;
@@ -166,5 +257,29 @@ profile-image{
         align-items: center;
         width: 85%;
         margin: 50px auto;
+    }
+    .flex input{
+        background-color: #bcbfc41a;
+        border-radius: 30px;
+        padding: 6px 7px ;
+        height: 60px;
+        width: 60%;
+    }
+    .flex img{
+        width: 80px;
+        height: 60px;
+    }
+    .secondary-flex img{
+        width: 20px;
+        height: 20px;
+    }
+    .reaction{
+        width: 140px;
+        border-radius: 20px;
+        height: 65px;
+        background-color: #bcbfc4bb;
+    }
+    .reaction img{
+        width: 50px;
     }
 }

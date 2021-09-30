@@ -8,9 +8,10 @@ loginButton.addEventListener("click", function(){
         profile.style.display = "block";
         loginForm.style.display = "none";
         alert("Login Successful")
-        console.log("right")
+        console.log("Log In successful");
     }
     else{
         alert("Invalid Password");
+        console.log("Wrong Password");
     }
 })
